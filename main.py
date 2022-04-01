@@ -9,7 +9,7 @@
 #Describers = Green
 #Everything pulled = White
 #spacers = White
-
+#t
 
 import praw
 import os

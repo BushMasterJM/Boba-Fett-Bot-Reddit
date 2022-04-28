@@ -1,5 +1,4 @@
 #Boba_Fett_Bot
-#Created By Joshua Most(BushMasterJM) and Kennenia McDaniel(Sharpoen)
 #Not intended to be used abusively on reddit
 
 #Color Code 
@@ -80,7 +79,7 @@ keep_alive()
 while True:
   try:
     # Begins the comment stream, scans for new comments
-    for comment in reddit.subreddit('otmemes+clonewarsmemes+sequelmemes+starwarsmemes+mandalorianmemes+bookofbobafettmemes+jedicouncilofelrond+botmakers_guild').stream.comments(skip_existing=True):
+    for comment in reddit.subreddit('otmemes+clonewarsmemes+sequelmemes+mandalorianmemes+bookofbobafettmemes+jedicouncilofelrond+botmakers_guild').stream.comments(skip_existing=True):
         
       author_name = str(comment.author.name) # Fetch author name
       author_id = str(comment.author.id) # Fetch author id
